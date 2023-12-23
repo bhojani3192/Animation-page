@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Corrosion-Free</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.5/ScrollTrigger.min.js"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header --> 
+   <section class="navbar-header py-5">
+    <div class="bg-overlay">
+      <nav class="navbar navbar-expand-lg navbar-light py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+             <img src="images/mine-logo-small.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+              <li class="nav-item d-flex align-items-center">
+                <div class="header-dot-active"></div>
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <div class="header-dot"></div>
+                <a class="nav-link text-white" href="#">About US</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <div class="header-dot"></div>
+                <a class="nav-link text-white" href="#">Products</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <div class="header-dot"></div>
+                <a class="nav-link text-white" href="#">Resources</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <div class="header-dot"></div>
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- <i class="fas fa-bars text-white fs-4 menu"></i> -->
+          <button type="button" class="bg-transparent border-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <i class="fas fa-search mx-4 text-white fs-3 search"></i>
+          </button>
+        </div>
+      </nav>
+      <div class="header-content">
+        <div class="container">
+          <div class="row ">
+            <div class="bannner-content w-100  text-center">
+             <div class="content text-center  ">
+              <h1 class="text-white  active" id="bannerhead">The Evalution of</h1>
+             </div>
+              <div class="d-flex">
+               <div class="col-6">
+                <div class="logo-img">
+                  <div class="img d-flex  holdMe  resizeMe ">
+                    <img src="images/small- logo.png" alt="logo" class="img-1  ">
+                    <img src="images/corrosion-logo-new.png" alt="logo2" class="mt-5 ms-3 img-2">
+                   </div>
+                </div>
+               </div>
+            <div class="col-6">
+              <!-- <div class="banner-img text-center">
+                <img src="images/header-img.png" alt="header-img" id="header-img">
+              </div> -->
+              <div class="banner-img text-center">
+                <img src="images/header-img.png" alt="header-img" id="item">
+              </div>
+            </div>
+          </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- Service -->
+  <section class="py-5 service">
+    <div class="container">
+      <div class="row">
+           <div class="section-1 d-flex">
+            <div class="col-4">
+              <div class="service-box p-5 text-center">
+                <img src="images/meter.png" alt="metericon">
+                <h4 class="py-2">Flow Meters</h4>
+                <button class="btn btn-primary px-5 py-2 text-uppercase">Learn More</button>
+              </div>
+            </div>
+            <div class="col-4  ps-3 service-2">
+              <div class="service-box  p-5 text-center">
+                <img src="images/water-level.png" alt="metericon">
+                <h4 class="py-2">Level Sensors</h4>
+                <button class="btn btn-primary px-5 py-2text-uppercase">Learn More</button>
+              </div>
+            </div>
+            <div class="col-4 ps-3">
+              <div class="service-box p-5 text-center">
+                <img src="images/presure.png" alt="metericon">
+                <h4 class="py-2">Pressure Sensors</h4>
+                <button class="btn btn-primary px-5 py-2text-uppercase">Learn More</button>
+              </div>
+            </div>
+           </div>
+           <div class="section-1 d-flex justify-content-center mt-3">
+            <div class="col-4">
+              <div class="service-box p-5 text-center">
+                <img src="images/hot.png" alt="metericon">
+                <h4 class="py-2">Temperature</h4>
+                <button class="btn btn-primary px-5 py-2text-uppercase">Learn More</button>
+              </div>
+            </div>
+            <div class="col-4  ps-3 service-2">
+              <div class="service-box  p-5 text-center">
+                <img src="images/leak.png" alt="metericon">
+                <h4 class="py-2">LEAK DETECTION</h4>
+                <button class="btn btn-primary px-5 py-2 text-uppercase">Learn More</button>
+              </div>
+            </div>
+           </div>
+      </div>
+    </div>
+  </section>
+  <!-- products -->
+  <section class="py-5 product">
+          <div class="container">
+            <div class="row">
+              <div class="main-head text-center py-5">
+                <h3 class="text-uppercase py-5">INDUSTRIES SERVED</h3>
+              </div>
+                <div class="col-6 text-center p-img">
+                  <img src="images/industrie-img.png" alt="img" id="item1">
+                </div>
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <div class="product-content text-center">
+                      <h3 class="pb-5">Flow Meters</h3>
+                    <button class="btn btn-primary fw-bold text-uppercase">Explore More 
+                      <i class="fas fa-arrow-right"></i>
+                    </button>
+                    </div>
+                </div>
+          </div>
+            <div class="row">
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <div class="product-content text-center">
+                      <h3 class="pb-5">Submersible Level Sensors</h3>
+                    <button class="btn btn-primary fw-bold text-uppercase">Explore More 
+                      <i class="fas fa-arrow-right"></i>
+                    </button>
+                    </div>
+                </div>
+                <div class="col-6 text-center p-img">
+                  <img src="images/industryimg2.png" alt="img" id="item2">
+                </div>
+          </div>
+          <div class="row">
+            <div class="col-6 text-center p-img">
+              <img src="images/industryimg3.png" alt="img" data-aos="zoom-in">
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <div class="product-content text-center">
+                  <h3 class="pb-5">Pressure Gauges</h3>
+                <button class="btn btn-primary fw-bold text-uppercase">Explore More 
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+                </div>
+            </div>
+      </div>  
+      <div class="row">
+        <div class="col-6 d-flex align-items-center justify-content-center">
+            <div class="product-content text-center">
+              <h3 class="pb-5">Continuous Level</h3>
+            <button class="btn btn-primary fw-bold text-uppercase">Explore More 
+              <i class="fas fa-arrow-right"></i>
+            </button>
+            </div>
+        </div>
+        <div class="col-6 text-center p-img">
+          <img src="images/industry4.gif" alt="img">
+        </div>
+  </div>
+  <div class="row">
+    <div class="col-6 text-center p-img">
+      <img src="images/industry5.gif" alt="img">
+    </div>
+    <div class="col-6 d-flex align-items-center justify-content-center">
+        <div class="product-content text-center">
+          <h3 class="pb-5">High Level Switch</h3>
+        <button class="btn btn-primary fw-bold text-uppercase">Explore More
+          <i class="fas fa-arrow-right"></i>
+        </button>
+        </div>
+    </div>
+</div>  
+<div class="row">
+  <div class="col-6 d-flex align-items-center justify-content-center">
+      <div class="product-content text-center">
+        <h3 class="pb-5">Level + Alarm</h3>
+      <button class="btn btn-primary fw-bold text-uppercase">Explore More 
+        <i class="fas fa-arrow-right"></i>
+      </button>
+      </div>
+  </div>
+  <div class="col-6 text-center p-img">
+    <img src="images/industry6.gif" alt="img">
+  </div>
+</div>
+</section>
+<!-- client -->
+<section class="py-5 client">
+  <div class="container">
+    <div class="row ">
+      <div class="d-flex align-items-center">
+        <div class="col-6 text-center py-5">
+          <h3 class="text-uppercase">Our Client list includes</h3>
+        </div>
+        <div class=" col-6 justify-content-center " data-aos="flip-left">
+          <div class="client-img d-flex">
+            <div class=" p-5 client-sec d-flex align-items-center">
+              <img src="images/client-1.png" alt="client" class="w-100">
+            </div>
+            <div class="p-5 client-sec ms-3 ">
+              <img src="images/client-2.png" alt="client" class="w-100">
+            </div>
+            <div class="p-5 client-sec ms-3 ">
+              <img src="images/client3.png" alt="client" class="w-100">
+            </div>
+          </div>
+          <div class="client-img d-flex mt-4">
+            <div class=" p-5 client-sec d-flex align-items-center">
+              <img src="images/client4.png" alt="client" class="w-100">
+            </div>
+            <div class="p-5 client-sec ms-3 ">
+              <img src="images/client5.png" alt="client" class="w-100">
+            </div>
+            <div class="p-5 client-sec ms-3 ">
+              <img src="images/client6.png" alt="client" class="w-100">
+            </div>
+          </div>
+          <div class="client-img d-flex mt-4">
+            <div class=" p-5 client-sec d-flex align-items-center">
+              <img src="images/client7.png" alt="client" class="w-100">
+            </div>
+            <div class="p-5 client-sec ms-3 ">
+              <img src="images/client8.png" alt="client" class="w-100">
+            </div>
+            <div class="p-5 client-sec ms-3 ">
+              <img src="images/client9.png" alt="client" class="w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Instrument -->
+<section class="py-5 my-5 bg-instrument">
+  <div class="container">
+    <div class="row">
+      <div class="main-head">
+        <div class="container">
+          <div class="row text-center ">
+            <h2 class="mb-5 text-white">CORROSION-FREE INSTRUMENTATION EQUIPMENT</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 instrument "  data-aos="zoom-in">
+          <img src="images/instrument1.jpg" alt="instrument" class="w-100 h-100 instrument-img">
+          <div class="content text-center px-3 ">
+            <div class="instrument-content">
+              <h4 class="text-white mb-3">LIQUID LEVEL PRODUCTS</h4>
+              <button class="btn btn-primary fw-bold text-uppercase">Read More
+                <i class="fas fa-arrow-right"></i>
+              </button>
+          </div>
+          </div>
+      </div>
+      <div class="col-4 instrument " data-aos="zoom-in">
+          <img src="images/instrument2.jpg" alt="instrument" class="w-100 h-100 instrument-img">
+          <div class="content text-center  px-3">
+              <h4 class="text-white mb-3">PRESSURE GAUGES & SENSORS</h4>
+              <button class="btn btn-primary fw-bold text-uppercase">Read More
+                <i class="fas fa-arrow-right"></i>
+              </button>
+          </div>
+      </div>
+      <div class="col-4 instrument" data-aos="zoom-in">
+          <img src="images/industrial3.jpg" alt="instrument" class="w-100 h-100 instrument-img">
+          <div class="content text-center  px-3">
+              <h4 class="text-white mb-3">FLOW METERS</h4>
+              <button class="btn btn-primary fw-bold text-uppercase">Read More
+                <i class="fas fa-arrow-right"></i>
+              </button>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<section class="py-5   footer-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <div class="logo">
+          <img src="images/small- logo.png" alt="">
+         </div>
+         <div class="contact-detail mt-4">
+        <div class="call">
+          <i class="fas fa-phone-volume text-center"></i>
+          <a href="tel:+91 90546 99283" >
+           <span class="text-white ms-3">+91 90546 99283</span>
+          </a>
+        </div>
+         <div class="e-mail mt-3">
+          <i class="fas fa-envelope text-center"></i>
+          <a href="mailto:sales@iconprocon.com" >
+           <span class="text-white ms-3">sales@iconprocon.com</span>
+          </a>
+          <a href="mailto:sales@iconprocon.com" >
+           <span class="text-white  email-2">support@iconprocon.com</span>
+          </a>
+         </div>
+         <div class="location mt-3">
+          <i class="fas fa-map-marker-alt text-center me-3"></i>
+          <a href="mailto:sales@iconprocon.com " >
+           <span class="text-white">321, Royalstreet, california Usa</span>
+          </a>
+         </div>
+         </div>
+      </div>
+      <div class="col-3 product" data-aos="fade-up">
+        <h5 class="text-white text-uppercase product-head">PRODUCTS</h5>
+        <ul class="text-white mt-3">
+          <a href="">
+            <li>Flow Meters</li> 
+          </a>
+          <a href="">
+            <li>Level Sensors</li>
+          </a>
+          <a href="">
+            <li>Flow Meters</li> 
+          </a>
+          <a href="">
+            <li>Pressure Gauges</li> 
+          </a>
+          <a href="">
+            <li>Temperature Sensors</li> 
+          </a>
+          <a href="">
+            <li>Alarms</li>
+          </a>       
+        </ul>
+      <div class="product mt-5">
+        <h5 class="text-white text-uppercase product-head">RESOURCES</h5>
+        <ul class="text-white mt-3">
+          <a href="">
+            <li>Datasheets</li>
+          </a>
+          <a href="">
+            <li>Application Success</li>
+          </a>
+          <a href="">
+            <li>2020 Condensed Catalog</li>
+          </a>
+          <a href="">
+            <li>3D Drawings</li>
+          </a>
+          <a href="">
+            <li>Installation Manuals</li>
+          </a>
+          <a href="">
+            <li>Chemical Resistance Guide</li>
+          </a>      
+        </ul>
+      </div>
+      </div>
+      <div class="col-3 product" data-aos="fade-up">
+        <h5 class="text-white text-uppercase product-head">APPLICATIONS</h5>
+        <ul class="text-white mt-3">
+          <a href="">
+            <li>Chemical Resistance Guide</li>
+          </a>      
+          <a href="">
+            <li>Bulk Chemical Applications</li>
+          </a>      
+          <a href="">
+            <li>Plating Applications</li>
+          </a>      
+          <a href="">
+            <li>Chemical Processing</li>
+          </a>      
+          <a href="">
+            <li>Aquatic Life Support</li>
+          </a>      
+        </ul>
+        <div class="product mt-5">
+          <h5 class="text-white text-uppercase product-head">OTHER</h5>
+          <ul class="text-white mt-3">
+            <a href="">
+              <li>Terms and Conditions of Sale</li>
+            </a> 
+            <a href="">
+              <li>Warranty Policy</li>
+            </a> 
+          </ul>
+        </div>
+      </div>
+      <div class="col-3 product">
+        <form action="">
+          <div class="">
+            <input type="text" placeholder="Enter your Name" class="py-2 w-100">
+            <input type="text" placeholder="Enter your e-mail" class="mt-3 py-2 w-100" >
+          </div>
+          <div class="call mt-3">
+           <div class="d-flex">
+            <select name="" id="" >
+              <option value=""> +91</option>
+              <option value=""> +1</option>
+              <option value=""> +70</option>
+              <option value=""> +82</option>
+              <option value=""> +95</option>
+              <option value=""> +2</option>
+            </select>
+            <input type="text" placeholder="Enter your Phone" class="ms-3 py-2 phonenum">
+           </div>
+          </div>
+          <input type="text" placeholder="Company" class="py-2 w-100 mt-3">
+          <textarea name="" id="" cols="30" rows="6" class="mt-3 py-2 w-100" placeholder="Your Enquiry"></textarea>
+          <button type="submit" placeholder="Enter your e-mail" class="mt-3 py-2 w-100 btn btn-primary text-uppercase fw-bold">get started</button>>
+        </form>
+      </div>
+     
+    </div>  
+  </div>
+</section>
+   <!-- Modal -->
+<!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content  bg-dark">
+      <div class="modal-header">
+        <button type="button" class="btn-close  bg-none  text-center " data-bs-dismiss="modal" aria-label="Close">
+          <i class="fas fa-times text-white fs-2"></i>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <input type="search" placeholder="Search..." class="py-2 w-50 bg-dark">
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  AOS.init();
+  var window_width = $(window).width() - $('#bannerhead').width();
+
+  var document_height = $(document).height() - $(window).height();
+
+$(function () {
+    $(window).scroll(function () {
+        var scroll_position = $(window).scrollTop();
+        var object_position_o = window_width * (scroll_position / document_height);
+        $('#bannerhead').css({
+            'left': object_position_o
+        });
+    });
+});
+
+// rotate
+var leftItem = document.getElementById('item'),
+    rightItem = document.getElementById('item1');
+
+;(function(){
+
+  var throttle = function(type, name, obj){
+    var obj = obj || window;
+    var running = false;
+    var func = function(){
+      if (running){ return; }
+      running = true;
+      requestAnimationFrame(function(){
+        obj.dispatchEvent(new CustomEvent(name));
+        running = false;
+      });
+    };
+    obj.addEventListener(type, func);
+  };
+  
+  throttle("scroll", "optimizedScroll");
+})();
+
+window.addEventListener("optimizedScroll", function(){
+  
+  leftItem.style.transform = "rotate(-" + window.pageYOffset + "deg)";
+  rightItem.style.transform = "rotate(" + window.pageYOffset + "deg)";
+})
+
+// Scroll code
+gsap.registerPlugin(ScrollTrigger)
+
+ScrollTrigger.create({
+	trigger: '.holdMe',
+	animation: gsap.fromTo('.resizeMe', {scale: 1 }, {scale: 1.2}),
+	pin: true,
+	start: 'center center',
+	end: 'bottom top',
+	scrub: 1, // I like the 1 sec delay, set to true for exact anime on scroll
+	//markers: true,
+})
+
+
+//round 2
+const text = document.querySelectorAll('.resizeMe2 > *')
+
+const tl = gsap.timeline().to('.resizeMe2', {width: 150, height: 150}).fromTo(text, {x: -100}, {x: 0, stagger: 0.3})
+
+ScrollTrigger.create({
+	trigger: '.holdMe2',
+	animation: tl,
+	pin: true,
+	start: 'center center',
+	end: '+=1500 bottom',
+	scrub: 1, // I like the 1 sec delay, set to true for exact anime on scroll
+	markers: true,
+})
+
+</script>
+</body>
+</html>
